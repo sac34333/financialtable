@@ -1,0 +1,77 @@
+export const financialData = [
+  {
+    id: 'net-sales',
+    label: 'Net Sales',
+    values: [245667, 423703, 528315, 534534, 534533],
+    trend: [0, 72.5, 24.7, 1.2, 0],
+  },
+  {
+    id: 'operating-expenses',
+    label: 'Operating Expenses',
+    values: [212167, 371390, 462667, 460269, 469212],
+    trend: [0, 75.0, 24.6, -0.5, 1.9],
+    isNested: true,
+  },
+  {
+    id: 'operating-profit',
+    label: 'Operating Profit',
+    values: [33500, 52313, 65648, 74265, 65321],
+    trend: [0, 56.2, 25.5, 13.1, -12.0],
+  },
+  {
+    id: 'other-income',
+    label: 'Other Income',
+    values: [14818, 13872, 11229, 12128, 13769],
+    trend: [0, -6.4, -19.1, 8.0, 13.5],
+  },
+  {
+    id: 'depreciation',
+    label: 'Depreciation',
+    values: [9199, 10276, 10118, 17690, 18481],
+    trend: [0, 11.7, -1.5, 74.8, 4.5],
+  },
+  {
+    id: 'interest',
+    label: 'Interest',
+    values: [16211, 9123, 12626, 13430, 12220],
+    trend: [0, -43.7, 38.4, 6.4, -9.0],
+  },
+  {
+    id: 'pbt',
+    label: 'PBT',
+    values: [22908, 46786, 54133, 55273, 48389],
+    trend: [0, 104.2, 15.7, 2.1, -12.5],
+  },
+  {
+    id: 'tax',
+    label: 'Provision for Taxation',
+    values: [-4732, 7702, 11116, 13231, 11858],
+    trend: [0, -262.8, 44.3, 19.0, -10.4],
+  },
+  {
+    id: 'net-profit',
+    label: 'Net Profit',
+    values: [31944, 39084, 44205, 42042, 36531],
+    trend: [0, 22.4, 13.1, -4.9, -13.1],
+  },
+  {
+    id: 'eps',
+    label: 'EPS',
+    values: [49.66, 59.24, 65.34, 62.14, 54],
+    trend: [0, 19.3, 10.3, -4.9, -13.1],
+  },
+  {
+    id: 'operating-margin',
+    label: 'Operating Profit Margin (%)',
+    values: [13.64, 12.35, 12.43, 13.89, 12.22],
+    trend: [0, -9.5, 0.6, 11.7, -12.0],
+    isPercentage: true,
+  },
+  {
+    id: 'net-margin',
+    label: 'Net Profit Margin (%)',
+    values: [13, 9.22, 8.37, 7.87, 6.83],
+    trend: [0, -29.1, -9.2, -6.0, -13.2],
+    isPercentage: true,
+  },
+];
